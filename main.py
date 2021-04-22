@@ -34,5 +34,3 @@ def display_rtf(rtffile):
 
     doc.close()
     return json.dumps(strtoreturn)
-   
-display_rtf("demo.rtf")
